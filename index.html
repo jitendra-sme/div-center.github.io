@@ -13,6 +13,9 @@
       }
       .container {
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .center {
         background-color: #fbff00;
@@ -22,18 +25,14 @@
         box-shadow: 10px 10px 15px 0px rgba(230, 230, 230, 1);
         width: 300px;
         height: 300px;
-        text-align: center;        
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="center">
-        <h1>Div Center via Transform Way</h1>        
+        <h1>Div Center via Flexbox Way</h1>        
       </div>
     </div>
   </body>
